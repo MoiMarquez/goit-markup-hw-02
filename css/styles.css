@@ -43,7 +43,6 @@ body {
         top: 32px;
         margin-top: 0;
         
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -71,7 +70,6 @@ body {
     left: 1078px;
     top: 32px;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -90,7 +88,6 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -119,8 +116,7 @@ color: #757575;
         height: 120px;
         left: 448px;
         top: 280px;
-    
-        font-family: 'Roboto';
+
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
@@ -179,7 +175,6 @@ color: #757575;
         left: 215px;
         top: 776px;
         
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -204,7 +199,6 @@ color: #757575;
         left: 619.43px;
         top: 991px;
     
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -242,7 +236,6 @@ color: #757575;
         left: 669px;
         top: 1604px;
     
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -329,7 +322,6 @@ color: #757575;
     left: 215px;
     margin-top: 100px;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -341,7 +333,6 @@ color: #757575;
 }
 
 .footer-contact{  
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -386,7 +377,7 @@ color: #757575;
 }
 
 .button-list button{
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -455,7 +446,6 @@ color: #757575;
     margin-top: 20px;
     margin-left: 24px;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -473,7 +463,6 @@ color: #757575;
     margin-top: 40px;
     margin-left: 24px;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -508,7 +497,6 @@ color: #757575;
         top: 75px;
         left: 516px;
     
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
