@@ -201,13 +201,15 @@ body {
 }
 
 .article-ulist{
-    position: absolute;
+        position: absolute;
         list-style: none;
         width: 1170px;
         height: 122px;
         border-bottom: 0px;
         margin-bottom: 0px;
+        margin-top: 0px;
         padding-bottom: 0px;
+        padding-left: 0px;
 }
 
 /* Main articles */   
@@ -216,6 +218,8 @@ body {
     position: absolute;
         width: 270px;
         height: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         top: -1px;
 
 
@@ -226,7 +230,7 @@ body {
 .article-list{ 
         display: inline-block;
         width: 270px;
-        height: 75px;
+        height: auto;
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
@@ -237,11 +241,10 @@ body {
 }
 
 .subtitle{
-    position: absolute;
+    position: relative;
         width: 371.15px;
         height: 46.24px;
-        left: 619.43px;
-        top: 991px;
+        left: 450px;
     
         font-style: normal;
         font-weight: 700;
@@ -274,10 +277,9 @@ body {
 }
 
 .subtitle2{
-    position: absolute;
+    position: relative;
         width: 270px;
-        left: 669px;
-        top: 1604px;
+        left: 450px;
     
         font-style: normal;
         font-weight: 700;
@@ -413,8 +415,9 @@ body {
 .find-us {
     width: 135px;
         height: 16px;
-        top: 75px;
+        top: 45px;
         left: 516px;
+        margin-top: 0px;
     
         font-style: normal;
         font-weight: 700;
