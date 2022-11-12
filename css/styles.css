@@ -26,7 +26,7 @@ body {
     position: relative;
     width: 145px;
     height: 31px;
-    left: 13.4%;
+    left: 215px;
     top: 24px;
     
     font-family: 'Raleway';
@@ -45,34 +45,32 @@ body {
 
 /*Ul */
 .nav-links {
-        position: absolute;
-        list-style: none;       
-        width: 37%;
-        height: 16px;
-        left: 28.3%;
-        top: 32px;
-        margin-top: 0;
-        padding: 0;
-        
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.1em;  
-        
-        color: var(--black-color);
+    position: absolute;
+    list-style: none;
+    width: 281px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    margin-top: 0;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--black-color);
 }
 
 
 /* Links */
 .upper-list {
     display: inline;
-    width: auto;
+    width: 281px;
     height: 16px;
+    left: 453px;
     top: 32px;
-    margin-right: 18%;
-    padding: 0
-    ;
+    margin-right: 30px;
 }
 
 
@@ -89,12 +87,12 @@ body {
 
 
 /* info@devstudio.com */
-.ribbon-contact{
+.ribbon-contact {
     text-decoration: none;
     position: absolute;
     width: 135px;
     height: 16px;
-    left: 67.3vw;
+    left: 1078px;
     top: 32px;
 
     font-style: normal;
@@ -112,21 +110,21 @@ body {
 
 /* +52 55 5529 6000 */
 
-.ribbon-contact2{
+.ribbon-contact2 {
     text-decoration: none;
-position: absolute;
-width: 138px;
-height: 16px;
-left: 78.9vw;
-top: 32px;
+    position: absolute;
+    width: 138px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
 
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-color: var(--grey-color);
+    color: var(--grey-color);
 }
 
 .ribbon-contact2:hover {
@@ -148,20 +146,20 @@ color: var(--grey-color);
 /* SOLUCIONES EFICACES PARA SU NEGOCIO */
 .solutions{
         position: absolute;
-        width: 696px;
-        height: 120px;
-        margin-top: 220px;
-        left: 31%;
-
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+            width: 696px;
+            height: 120px;
+            margin-top: 220px;
+            margin-left: 25%;
+        
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 60px;
+            /* or 136% */
+        
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
     
         color: var(--white-color);
 }
@@ -169,18 +167,17 @@ color: var(--grey-color);
 /* Auto layout */    
 .main-button{
         cursor: pointer;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px 32px;
-    
-        position: absolute;
-        width: 261px;
-        height: 50px;
-        left: 40%;
-        top: 430px;
-        align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 32px;
+        
+            position: absolute;
+            width: 261px;
+            height: 50px;
+            left: 666px;
+            top: 430px;
     
         background: var(--highlight-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -197,31 +194,29 @@ color: var(--grey-color);
 
 .main-articles{
     position: absolute;
-    width: 100%;
-    height: auto;
-    left: 14%;
-    top: 775px;
-    margin-left: 9.5%;
-    margin-right: 13.5%;
+        width: 1170px;
+        height: 122px;
+        left: 215px;
+        top: 775px;
 }
 
 .article-ulist{
     position: absolute;
-    list-style: none;
-    width: 100%;
-    height: 122px;
-    border-bottom: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+        list-style: none;
+        width: 1170px;
+        height: 122px;
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
 }
 
 /* Main articles */   
 
 .article-tittle {
     position: absolute;
-    width: 100%;
-    height: 16px;
-    top: -1px;
+        width: 270px;
+        height: 16px;
+        top: -1px;
 
 
     font-weight: bold;
@@ -230,9 +225,8 @@ color: var(--grey-color);
 
 .article-list{ 
         display: inline-block;
-        width: 15%;
+        width: 270px;
         height: 75px;
-
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
@@ -246,7 +240,7 @@ color: var(--grey-color);
     position: absolute;
         width: 371.15px;
         height: 46.24px;
-        left: 45%;
+        left: 619.43px;
         top: 991px;
     
         font-style: normal;
@@ -260,21 +254,18 @@ color: var(--grey-color);
 }
 
 .pics{
-    position: relative;
-    width: 100%;
-    height: 425px;
-    left: 0%;
-    top: 1092.3px;
-    margin-left: 14%;
-    margin-left: 11%;
+    position: absolute;
+        width: 1190.16px;
+        height: 425px;
+        left: 215px;
+        top: 1092.3px;
 }
 
 .pics-box{
     position: absolute;
-    list-style: none;
-    width: 100%;
-    height: auto;
-    margin-left: 13%;;
+        list-style: none;
+        width: 1190.16px;
+        height: 323.7px;
 }
 
 .pics-list{    
@@ -285,7 +276,7 @@ color: var(--grey-color);
 .subtitle2{
     position: absolute;
         width: 270px;
-        left: 45%;
+        left: 669px;
         top: 1604px;
     
         font-style: normal;
@@ -301,12 +292,11 @@ color: var(--grey-color);
 
 .team-section{
     position: absolute;
-    width: 100%;
-    height: 260;
-    left: 13%;
-    top: 1696px;
-    border-radius: 0px;
-    margin-left: 12%;
+        width: 1190.16px;
+        height: 260;
+        left: 208px;
+        top: 1696px;
+        border-radius: 0px;
 }
 
 .team-box{
@@ -351,26 +341,26 @@ color: var(--grey-color);
 
 .bg-color-porfolio {
     position: absolute;
-    width: 100%;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 1628px;
 
     background: var(--bg-color);
 }
 
 .logo2{
     position: absolute;
-    width: 10%;
-    height: 31px;
-    left: 13.5%;
-    margin-top: 60px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        margin-top: 60px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -381,10 +371,10 @@ color: var(--grey-color);
 
 .footer-address{
     position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 14%;
-    margin-top: 100px;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        margin-top: 100px;
 
     font-style: normal;
     font-weight: 400;
@@ -414,46 +404,46 @@ color: var(--grey-color);
 
 .social-links {
     position: absolute;
-    width: 206px;
-    height: 80px;
-    top: 75px;
-    left: 32.5%;
+        width: 206px;
+        height: 80px;
+        top: 75px;
+        left: 516px;
 }
 
 .find-us {
     width: 135px;
-    height: 16px;
-    top: 75px;
-    left: 32.5%;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        height: 16px;
+        top: 75px;
+        left: 516px;
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
     color: var(--white-color);
 }
 
 .social-box {
     width: 206px;
-    height: 80px;
-    top: 111px;
-    left: 32.5%;
-    padding-left: 0;
-    margin-top: 20px;
+        height: 80px;
+        top: 111px;
+        left: 516px;
+        padding-left: 0;
+        margin-top: 20px;
 
     list-style: none;
 }
 
 .social-list {
     display: inline-block;
-    background: lightblue;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    text-align: center;
+        background: lightblue;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        text-align: center;
     background: #ffffff1a;
 }
 
@@ -473,33 +463,33 @@ color: var(--grey-color);
 /* PORTFOLIO PAGE*/
 .envelope {
     position: absolute;
-    left: 67%;
-    top: 35px;
+        left: 1058px;
+        top: 35px;
 }
 
 .phone{
         position: absolute;
-        left: 79%;
-        top: 32px;    
+            left: 1245px;
+            top: 32px;
 }
 
 .main-section {
     position: absolute;
-        width: 100%;
+        width: 550px;
         height: 38px;
         top: 180px;
+        left: 485px;
 }
 
 .main-box{
     position: absolute;
-    list-style: none;
-    width: 100%;
-    margin-left: 35%;
+        list-style: none;
+        width: 550;
 }
 
 .button-list{
     display: inline;    
-    margin-right: 0.5%;
+    margin-right: 4px;
 }
 
 .button-list button{
@@ -535,11 +525,10 @@ color: var(--grey-color);
 
 .grid-box{
     position: absolute;
-    list-style: none;
-    width: 1230px; 
-    height: 1272px;   
-    padding-left: 0px;
-    left: 18%;
+        list-style: none;
+        width: 1230px;
+        height: 1272px;
+        padding-left: 0px;
 }
 
 .grid-list {
